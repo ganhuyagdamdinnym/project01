@@ -2,26 +2,104 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+img {
+  height: 200px;
+  width: 300px;
+  border-radius: 5px;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.head {
+  display: flex;
+  gap: 50px;
 }
-
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: black;
+  gap: 20px;
+  display: flex;
+}
+h1 {
+  color: white;
+  width: 250px;
+}
+h3 {
+  color: gray;
+}
+.avatar {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-top: 10px;
+}
+.header {
+  display: flex;
+  margin-top: 10px;
+  gap: 10px;
+}
+.main {
+  margin-top: 20px;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 30px;
+  height: 1000px;
+  padding: 20px;
+  width: auto;
+}
+.text {
+  width: 20%;
+  background-color: rgb(43, 40, 40);
+  height: 1500px;
+}
+.parents {
+  display: flex;
+}
+.home {
+  width: 300px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.library {
+  width: 300px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.borderh {
+  border-bottom: 1px solid gray;
+
+  margin-bottom: 30px;
+}
+.img {
+  width: 1500px;
+  height: 70px;
+}
+.icon {
+  height: 24px;
+  width: 24px;
+  margin-left: 50px;
+}
+.final {
+  margin-left: 30px;
+}
+.head1 {
+  background-color: rgb(43, 40, 40);
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+/* .item {
+  background-color: rgb(43, 40, 40);
+  display: flex;
+  gap: 20px;
+} */
+.text1 {
+  margin-left: 20px;
 }

@@ -1,0 +1,18 @@
+[
+    {
+        "text":"Youtube Premium",
+        "icon":"icon-1.png"
+    },
+    {
+        "text":"Gaming",
+        "icon":"icon-2.png"
+    },
+    {
+        "text":"Live",
+        "icon":"icon-3.png"
+    },
+    {
+        "text":"Sports",
+        "icon":"icon-4.png"
+    }
+]
