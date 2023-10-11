@@ -5,7 +5,11 @@ export function Box(props) {
     <div className="main">
       <div>
         {/* <div style={{width: "300px", height: "200px", backgroundImage       :{background}}}></div> */}
-        <img src={props.video} />
+        <img
+          onClick={() => props.watch_video(props.id, props.channelId)}
+          className="imga"
+          src={props.video}
+        />
         <div className="header">
           <div>
             <img className="avatar" src={props.avatar} />

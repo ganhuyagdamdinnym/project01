@@ -1,8 +1,11 @@
-export const Item = () => {
+export const Item = (props) => {
   return (
     <div>
-      <button className="bg-[#2b1e1e] rounded-lg w-14 mt-3 text-white border-1">
-        Item
+      <button
+        onClick={() => props.cate(props.element)}
+        className="bg-[#494b4d] rounded-lg px-4 mt-3 text-white  border-white"
+      >
+        {props.element}
       </button>
     </div>
   );
